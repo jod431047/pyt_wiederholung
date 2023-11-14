@@ -1,12 +1,12 @@
 #addierer
 
-x = int(input('Bitte erste zahl geben'))
-y = int(input('Bitte erste zahl geben'))
+x = float(input('Bitte erste zahl geben'))
+y = float(input('Bitte erste zahl geben'))
 
-print (x+y)
+print(x+y)
 
-print (x*y)
+print(x-y)
 
-print (x-y)
+print(x*y)
 
-print (x/y)
+print(x/y)
