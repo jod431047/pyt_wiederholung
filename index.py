@@ -1,12 +1,11 @@
-#addierer
+names = ['jihad','bari','karam','barho',1,2,3]
+print (names)
 
-x = float(input('Bitte erste zahl geben'))
-y = float(input('Bitte erste zahl geben'))
+print (names[-2])
 
-print(x+y)
 
-print(x-y)
+names = ['jihad','bari','karam','barho',1,2,3]
+print (names)
 
-print(x*y)
-
-print(x/y)
+names [0]= 'mustafa'
+print(names)
