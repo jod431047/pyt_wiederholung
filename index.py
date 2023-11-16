@@ -1,21 +1,32 @@
-nameList = ["ziad" , "Andree" , "stefan" , 7 , 8.3]
-print(nameList)                                 #طبعلي الاسماء والارقام
-print(nameList[0])                              #طبعلي القائمة واول اسم
-print(nameList[-1])                             #طبعلي القائم بلعكس ويبدا من -1
+# nameList = ["ziad" , "Andree" , "stefan" , 7 , 8.3]
+# print(nameList)                                 #طبعلي الاسماء والارقام
+# print(nameList[0])                              #طبعلي القائمة واول اسم
+# print(nameList[-1])                             #طبعلي القائم بلعكس ويبدا من -1
+#
+#
+#
+# x = int(input('Bitte erste zahl geben'))
+# y = int(input('Bitte erste zahl geben'))              #الة حاسبة تطبع الناقص الزائد القسمة الضرب
+#
+# print (x+y)
+#
+# print (x*y)
+#
+# print (x-y)
+#
+# print (x/y)
 
+x=[1,3,2,5,4,6,7]
+y=[11,12,13,14,15,16]                      #اضافة عنصر في السترينغ
+# #
+# # print(x)           # [1, 3, 2, 5, 4, 6, 7]
+# # print(x,y)         # [1, 3, 2, 5, 4, 6, 7] [11, 12, 13, 14, 15, 16]
+# # x.append(8)                                # بهذه الدالة وظيفتها ادخال رقم غير موجود بل الحقل عشوائية
+# # print(x)           # [1, 3, 2, 5, 4, 6, 7, 8]
+#
+# print(x)                        #[1, 3, 2, 5, 4, 6, 7]
+# x.insert(5,100)  #[1, 3, 2, 100, 5, 4, 6, 7] # # بهذه الدالة وظيفتها ادخال رقم غير موجود بل الحقل بمكان محدد
+# print(x)
 
-
-x = int(input('Bitte erste zahl geben'))
-y = int(input('Bitte erste zahl geben'))              #الة حاسبة تطبع الناقص الزائد القسمة الضرب
-
-print (x+y)
-
-print (x*y)
-
-print (x-y)
-
-print (x/y)
-
-
-
-
+x.extend(y)   #هذه الدالة وظيفتها طباعة listبسطر واحد   # [0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 16]
+print(x)
