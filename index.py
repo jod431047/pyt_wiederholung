@@ -37,8 +37,8 @@
 #y.remove(16)            # [15, 14, 13, 12, 11, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 #print(y)                #هذه الدالة وظيفتها حذف رقم من القائمة وترتيبها
 
-j = []
-names = ["faeza","jihad","bari"]
-for i in names:
-    j.append(len(i))     #تاسك لعد الاسماء واظهارها بارقام
-print(j)              #[5, 5, 4]
+# j = []
+# names = ["faeza","jihad","bari"]
+# for i in names:
+#     j.append(len(i))     #تاسك لعد الاسماء واظهارها بارقام
+# print(j)              #[5, 5, 4]
