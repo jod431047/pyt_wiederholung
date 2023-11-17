@@ -10,9 +10,9 @@
 #     print("hallo jihad")
 #     counter = counter +1
 
-x = int(input("How many times do you want to repeat your Name: "))
-y = 0
-name = input("Enter your Name: ")
-while  y < x:
-    print(name)
-    y = y + 1
+# x = int(input("How many times do you want to repeat your Name: "))
+# y = 0
+# name = input("Enter your Name: ")
+# while  y < x:
+#     print(name)
+#     y = y + 1

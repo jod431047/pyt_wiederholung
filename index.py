@@ -2,7 +2,7 @@
 # print(nameList)                                 #طبعلي الاسماء والارقام
 # print(nameList[0])                              #طبعلي القائمة واول اسم
 # print(nameList[-1])                             #طبعلي القائم بلعكس ويبدا من -1
-#
+# #
 #
 #
 # x = int(input('Bitte erste zahl geben'))
